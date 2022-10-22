@@ -1,16 +1,5 @@
-# foodapptwo
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/108897583/197363530-9227e23a-5bd5-41e8-9537-076908e78860.gif)
+![1](https://user-images.githubusercontent.com/108897583/197363572-5f3fe161-20bf-4046-8ae4-4ca738ebf499.PNG)
+![2](https://user-images.githubusercontent.com/108897583/197363577-091cee8e-d81d-4507-92ea-aac98f079a18.PNG)
+![3](https://user-images.githubusercontent.com/108897583/197363582-ec0ed643-5f74-450e-b51d-eb602a273009.PNG)
+![4](https://user-images.githubusercontent.com/108897583/197363589-c227b26d-f4c3-440b-8723-4be056f5c8ef.PNG)
