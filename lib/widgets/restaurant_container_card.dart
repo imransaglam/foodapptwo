@@ -99,7 +99,7 @@ class _RestaurantCardState extends State<RestaurantCard> {
                     height: 22.3,
                       width: 22.3,
                       margin: EdgeInsets.only(right:3 ),
-                      child:Text("0",style: TextStyle(fontSize: 18.36,color: Color(0xff010E16)),) ,
+                      child:Text("0",style: TextStyle(fontSize: 18.36,color: Color(0xff010E15)),) ,
                      
                     ),
                     Container(
