@@ -8,7 +8,8 @@ class RestaurantCard extends StatefulWidget {
   final String foodtext;
   final String foodrank;
   final String foodprice;
-  const RestaurantCard({super.key, required this.foodimg, required this.foodtext, required this.foodrank, required this.foodprice});
+  
+  const RestaurantCard({super.key, required this.foodimg, required this.foodtext, required this.foodrank, required this.foodprice,});
 
   @override
   State<RestaurantCard> createState() => _RestaurantCardState();
@@ -31,6 +32,7 @@ class _RestaurantCardState extends State<RestaurantCard> {
           blurRadius: 3.0,
           spreadRadius: 2.0,
         )],
+         //color: Colors.purple,
           color: Colors.white
         ),
         child: Row(
@@ -53,13 +55,88 @@ class _RestaurantCardState extends State<RestaurantCard> {
                        
                       ],
                     ),
+                  
                      SizedBox(height: 7,),
-                    Container(height: 30,width:155,child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit.",style: TextStyle(color: Color(0xff9B9B9B),fontSize: 12,fontWeight: FontWeight.w400),)),
+                    Row(
+                      children: [
+                        Container(
+                         // color:Colors.orange,
+                          height: 30,width:155,child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit.",style: TextStyle(color: Color(0xff9B9B9B),fontSize: 12,fontWeight: FontWeight.w400),)),
+                        Padding(
+                          padding: const EdgeInsets.only(left:15),
+                          child: Container(
+                width: 80,
+                height: 30,
+                //color: Colors.grey,
+                child: Row(
+                  children: [
+                    Container(
+                      alignment: Alignment.center,
+                      height: 22.3,
+                      width: 22.3,
+                      margin: EdgeInsets.only(right:3 ),
+                      decoration: BoxDecoration(
+                     color: Colors.white,
+                      borderRadius: BorderRadius.circular(2.62),
+                      boxShadow: [BoxShadow(
+          color: Colors.grey.shade300,
+          offset: const Offset(0, 3.0),
+          blurRadius: 3.0,
+          spreadRadius: 2.0,
+        )],
+                      
+                      ),
+                      child: Padding(
+                          padding: const EdgeInsets.only(bottom:9),
+                          child: Icon(
+                            Icons.minimize,
+                            size: 13.12,
+                          ),
+                      ),
+                    ),
+                     Container(
+                      alignment: Alignment.center,
+                    height: 22.3,
+                      width: 22.3,
+                      margin: EdgeInsets.only(right:3 ),
+                      child:Text("0",style: TextStyle(fontSize: 18.36,color: Color(0xff010E16)),) ,
+                     
+                    ),
+                    Container(
+                      alignment: Alignment.center,
+                     height: 22.3,
+                      width: 22.3,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(2.62),
+                        boxShadow: [BoxShadow(
+          color: Colors.grey.shade300,
+          offset: const Offset(0, 3.0),
+          blurRadius: 3.0,
+          spreadRadius: 2.0,
+        )],
+                      ),
+                      
+                      child: Icon(
+                          Icons.add,
+                          size: 13.12,
+                      ),
+                    ),
+                    
+
+                  ],
+                ),
+              ),
+                        )
+                      ],
+                    ),
                     SizedBox(height: 10,),
                     Text("\$ " + widget.foodprice,style:TextStyle(color: Color(0xff010E16),fontSize: 17,fontWeight: FontWeight.bold),),
                   ],
                 ),
               ),
+             
+              
              
           ],
 
